@@ -12,7 +12,7 @@ seaborn==0.10.1
 joblib==1.1.1
 
 # Easy http requests
-requests==2.22.0
+requests==2.32.2
 selenium==3.141.0
 
 ##### Machine Learning packages
@@ -27,7 +27,7 @@ xgboost==1.7.0
 # you need a GPU card with CUDA Compute Capability 3.0 or higher support, and
 # you must install CUDA, cuDNN and more: see tensorflow.org for the detailed
 # installation instructions.
-tensorflow==1.15.2
+tensorflow==2.12.0rc1
 #tensorflow-gpu==1.15.0
 
 tensorboard==1.15.0
@@ -85,5 +85,12 @@ tfx==0.15.0
 tf-agents==0.3.0rc0
 ipython>=8.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
 pyyaml>=5.4 # not directly required, pinned by Snyk to avoid a vulnerability
-urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
 wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
+dnspython>=2.6.1 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+keras>=2.13.1rc0 # not directly required, pinned by Snyk to avoid a vulnerability
+orjson>=3.9.15 # not directly required, pinned by Snyk to avoid a vulnerability
+pyarrow>=14.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
